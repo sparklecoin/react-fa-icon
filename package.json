@@ -2,7 +2,7 @@
 	"name": "react-fa-icon",
 	"version": "1.0.0",
 	"description": "A simple fontawesome icon component",
-	"main": "FaIcon.js",
+	"main": "FontIcon.js",
 	"scripts": {
 		"test": "echo \"No test specified\" && exit 1",
 		"lint":"eslint ./src/FontIcon.jsx",
