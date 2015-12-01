@@ -54,4 +54,4 @@ var FontIcon = React.createClass({
 	}
 });
 
-export default FontIcon;
+module.exports = FontIcon;

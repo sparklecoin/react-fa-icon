@@ -1,6 +1,6 @@
 {
 	"name": "@epferrari/react-fa-icon",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple fontawesome icon component",
 	"main": "FontIcon.js",
 	"scripts": {
