@@ -4,9 +4,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
+
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
+
+import PropTypes from 'prop-types';
 
 var bools = ["border", "fixed", "spin"];
 var variable = ["size", "icon"];
@@ -17,16 +20,16 @@ var FontIcon = _react2["default"].createClass({
 	displayName: "FontIcon",
 
 	propTypes: {
-		icon: _react2["default"].PropTypes.string.isRequired,
-		size: _react2["default"].PropTypes.oneOf(['lg', 2, 3, 4, 5]),
-		right: _react2["default"].PropTypes.bool,
-		left: _react2["default"].PropTypes.bool,
-		flip: _react2["default"].PropTypes.bool,
-		mirror: _react2["default"].PropTypes.bool,
-		rotate: _react2["default"].PropTypes.oneOf([90, 180, 270]),
-		fixed: _react2["default"].PropTypes.bool,
-		spin: _react2["default"].PropTypes.bool,
-		border: _react2["default"].PropTypes.bool
+		icon: PropTypes.string.isRequired,
+		size: PropTypes.oneOf(['lg', 2, 3, 4, 5]),
+		right: PropTypes.bool,
+		left: PropTypes.bool,
+		flip: PropTypes.bool,
+		mirror: PropTypes.bool,
+		rotate: PropTypes.oneOf([90, 180, 270]),
+		fixed: PropTypes.bool,
+		spin: PropTypes.bool,
+		border: PropTypes.bool
 	},
 	render: function render() {
 		var _this = this;
