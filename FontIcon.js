@@ -9,8 +9,8 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-import PropTypes from 'prop-types';
-import createReactClass from 'create-react-class';
+var PropTypes = require('prop-types');
+var createReactClass = require('create-react-class');
 
 var bools = ["border", "fixed", "spin"];
 var variable = ["size", "icon"];
