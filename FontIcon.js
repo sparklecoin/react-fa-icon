@@ -10,13 +10,14 @@ var _react = require('react');
 var _react2 = _interopRequireDefault(_react);
 
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 var bools = ["border", "fixed", "spin"];
 var variable = ["size", "icon"];
 var composite = ["rotate"];
 var pulls = ["right", "left"];
 
-var FontIcon = _react2["default"].createClass({
+var FontIcon = createReactClass({
 	displayName: "FontIcon",
 
 	propTypes: {
